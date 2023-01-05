@@ -1,0 +1,95 @@
+@font-face {
+	src: url("Sablon_Up/Sablon_Up_Regular.otf");
+	font-family: Sablon;
+}
+
+@font-face {
+	src: url("CursedTimerUlil-Aznm.ttf");
+	font-family: CursedTimer;
+}
+
+body {
+    background: rgb(10, 0, 0);
+    font-family: Sablon;
+    font-size: 5em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    border: 5px solid white;
+    border-radius: 5px;
+    background: rgb(31, 31, 31);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.box {
+    border: 2px solid white;
+    border-radius: 5px;
+    background: rgb(10, 0, 0);
+    width: fit-content;
+}
+
+.area-container {
+    margin: 10px 20px;
+    
+}
+
+h3 {
+    padding: 5px auto 5px auto;
+    margin: 1px;
+}
+
+.score-style{  
+    margin: 0 auto 20px auto;
+    padding: 35px 0 0 0;
+    font-family: CursedTimer;
+    color: rgb(255, 24, 24);
+    width: 200px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: auto;
+}
+
+button {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    padding: 7px 15px;
+}
+
+#time {
+    padding: 15px 5px 0 5px;
+}
+
+.center-text {
+    font-size: smaller;
+}
+
+.time-style {
+    font-family: CursedTimer;
+    font-size: smaller;
+    color: rgb(235, 235, 0);
+    margin: 0 auto 10px auto;
+    padding: 15px 20px 0 20px;
+}
+
+#center-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fouls{
+    margin-top: 175px;
+}

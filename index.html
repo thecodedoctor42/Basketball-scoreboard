@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="container">
+            <div class="area-container">
+                <h3>HOME</h3>
+                <h1 id="homeScore" class="box score-style">0</h1>
+                <div class="btn-container">
+                    <button class="box" onclick="add1Home()">+1</button>
+                    <button class="box" onclick="add2Home()">+2</button>
+                    <button class="box" onclick="add3Home()">+3</button>
+                </div>            
+            </div>
+            <div id="center-container">
+                <div class="area-container fouls">
+                    <h3 class="center-text">FOULS</h3>
+                    <h1 id="foulsHome" class="box time-style">0</h1>
+                    <button class="box" onclick="add1FoulHome()">+1</button>
+                    <h3 class="center-text">POINTS</h3>
+                </div>
+                <div class="area-container">
+                    <h1 id="time" class="box time-style">12:00</h1>
+                    <div class="btn-container">
+                        <button class="box" onclick="start()">START</button>
+                        <button class="box" onclick="stop()">STOP</button>
+                        <button class="box" onclick="reset()">RESET</button>
+                    </div>
+                    <h3 class="center-text">PERIOD</h3>
+                    <h1 id="period-count" class="box  time-style">0</h1>
+                    <button class="box" onclick="add1Period()">+1</button>
+                </div>
+                <div class="area-container fouls">
+                    <h3 class="center-text">FOULS</h3>
+                    <h1 id="foulsGuest" class="box time-style">0</h1>
+                    <button class="box" onclick="add1FoulGuest()">+1</button>
+                    <h3 class="center-text">POINTS</h3>                    
+                </div>
+            </div>
+        <div class="area-container">
+            <h3>GUEST</h3>
+            <h1 id="guestScore" class="box score-style">0</h1>
+            <div class="btn-container">
+                <button class="box" onclick="add1Guest()">+1</button>
+                <button class="box" onclick="add2Guest()">+2</button>
+                <button class="box" onclick="add3Guest()">+3</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
